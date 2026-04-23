@@ -1,1 +1,1 @@
-# skills-repo
+# skills-manager
