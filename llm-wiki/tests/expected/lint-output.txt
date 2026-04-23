@@ -1,0 +1,15 @@
+=== llm-wiki lint 报告 ===
+时间：YYYY-MM-DD HH:MM
+检查路径：tests/fixtures/lint-sample-wiki/wiki
+
+--- 孤立页面（entities/ 下没有被其他页面引用） ---
+  孤立: Lonely
+
+--- 断链（被链接但不存在的页面） ---
+  断链: [[Missing]]
+  断链: [[Target]]
+
+--- index 一致性（index.md 有记录但文件缺失） ---
+  index 有但文件缺失: Ghost
+
+=== 机械检查完成。矛盾检测、交叉引用、置信度抽查由 AI 继续执行 ===
